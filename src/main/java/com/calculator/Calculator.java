@@ -11,6 +11,7 @@ public class Calculator {
         double num2 = input.nextDouble();
         System.out.println("Sum is: " + calculator.addNumbers(num1, num2));
         System.out.println("Difference is: " + calculator.subtractNumber(num1, num2));
+        System.out.println("Multiplied is: " + calculator.multiplyNumber(num1, num2));
 
     }
 
