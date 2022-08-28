@@ -1,6 +1,12 @@
 package com.calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+    }
 
     public double addNumbers(double num1, double num2) {
         return num1 + num2;
