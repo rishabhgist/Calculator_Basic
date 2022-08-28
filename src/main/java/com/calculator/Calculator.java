@@ -6,6 +6,10 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Calculator calculator = new Calculator();
+        System.out.println("Enter num1 and num2 to perform add, subtract, multiply and divide");
+        double num1 = input.nextDouble();
+        double num2 = input.nextDouble();
+        System.out.println();
 
     }
 
