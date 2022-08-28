@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("Enter num1 and num2 to perform add, subtract, multiply and divide");
         double num1 = input.nextDouble();
         double num2 = input.nextDouble();
-        System.out.println();
+        System.out.println(calculator.addNumbers(num1, num2));
 
     }
 
